@@ -115,6 +115,7 @@
     - reporting exit status to the docker daemon
 - `docker container run -it --name <name> <image>:<tag>`
 - creating a container
+
   - use the CLI
   - docker uses the approppiate API payload
   - posts to the correct API endpoint
@@ -122,3 +123,26 @@
   - calls containerd
   - containerd creates bundle OCI
   - runc craetes a contianer using the OCI bundle
+
+- Docker images
+
+  - use images to create an instance of a container
+  - compromised of multiple layers
+  - build time constructs
+  - built from the instructions
+  - images are made of multiple layers
+  - each layer represents an instruction from Dockerfile
+
+  - Docker Hub
+
+    - public Docker registry
+    - provided by Docker
+    - features
+      - repositories
+      - teams and organizations
+      - official images
+      - publisher images
+      - builds
+      - webhooks
+
+  - docker commands
