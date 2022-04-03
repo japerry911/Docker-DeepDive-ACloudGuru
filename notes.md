@@ -1,5 +1,7 @@
 # Docker Deep Dive ACloudGuru
 
+- notes: 7752kvxaasdasd
+
 - what is docker?
 
   - docker
@@ -145,4 +147,26 @@
       - builds
       - webhooks
 
-  - docker commands
+- docker commands
+  - `docker image`
+    - `docker image ls`
+    - `docker image pull <image-name>`
+    - `docker image inspect <image-id>`
+  - `docker container`
+    - `docker container ls`
+    - `docker container run <image-name>`
+      - `docker container run busybox`
+    - `docker container ps`
+      - list running containers
+    - `docker container inspect <container-id>`
+    - `docker container top <container-id>`
+    - `docker container attach <container-id>`
+    - `docker container start <container-id>`
+    - `docker container stop <container-id>`
+    - `docker container logs <container-id>`
+    - `docker container stats <container-id>`
+    - `docker container exec -it <container-id> /bin/bash`
+    - `docker container pause <container-id>`
+    - `docker container unpause <container-id>`
+    - `docker container prune`
+    - `docker rm -f <container-id>`
