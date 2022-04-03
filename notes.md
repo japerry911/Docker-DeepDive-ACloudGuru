@@ -124,7 +124,7 @@
   - daemon receives instructions
   - calls containerd
   - containerd creates bundle OCI
-  - runc craetes a contianer using the OCI bundle
+  - runc creates a contianer using the OCI bundle
 
 - Docker images
 
@@ -170,3 +170,9 @@
     - `docker container unpause <container-id>`
     - `docker container prune`
     - `docker rm -f <container-id>`
+    - `docker container run <image-name>`
+    - `docker container run --rm <image-name>`
+    - `docker container run -d <image-name>`
+    - `docker container run -it <image-name>`
+    - `docker container prune -f`
+    - `docker container run --name <name-of-container-instance> <image-name>`
